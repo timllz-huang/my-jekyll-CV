@@ -62,7 +62,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise As a Head of IT and I have more than 15+ years of experience in leading and managing 
+    As Head of IT, I have more than 15+ years of experience in leading and managing 
     complex IT projects, developing business strategies, and implementing 
     technology solutions for various industries.
 
@@ -75,7 +75,7 @@ career-profile:
         Ability to identify, evaluate, and recommend new technologies and solutions.
         Familiarity with disaster recovery and business continuity plans.
         Strong project leadership and change management skills.
-        
+
 education:
   title: Education
   info:
@@ -173,7 +173,7 @@ certifications:
     organization: Microsoft
     credentialid: 111-222
     credentialurl: www.github.com
-    credentialname: Github
+    credentialname: GitHub
     details: |
       Older certification. Lorem ipsum dolor sit amet, consectetur
       adipiscing elit.
