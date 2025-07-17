@@ -93,27 +93,26 @@ experiences:
       time: Dec 2014 - Jan 2018
       company: Complispace (now Ideagen)
       details: |
-      - Managed Windows, Linux, and network systems across a multi-site enterprise.
-      - Administered AD, Exchange, Office 365, Azure AD, and SCCM.
-      - Installed and configured servers, storage, VPNs, firewalls, and VLANs.
-      - Maintained Apache, MySQL, Bind, Nagios on Linux systems.
-      - Delivered cloud admin tasks across AWS, EC2, S3, PaaS, and Azure AD.
-      - Configured Layer 3 switches, wireless controllers, and access points.
-      - Completed migration from Exchange 2010 to Office 365.
-      - Planned and deployed Site-to-Site VPNs and PFsense firewalls across 5 offices.
-      - Led wireless network implementation for 3 interstate offices.
-
+        - Managed Windows, Linux, and network systems across a multi-site enterprise.
+        - Administered AD, Exchange, Office 365, Azure AD, and SCCM.
+        - Installed and configured servers, storage, VPNs, firewalls, and VLANs.
+        - Maintained Apache, MySQL, Bind, and Nagios on Linux systems.
+        - Delivered cloud admin tasks across AWS (EC2, S3, PaaS) and Azure AD.
+        - Configured Layer-3 switches, wireless controllers, and access points.
+        - Completed migration from Exchange 2010 to Office 365.
+        - Planned and deployed site-to-site VPNs and PFsense firewalls for 5 offices.
+        - Led wireless-network rollout for 3 interstate offices.
 
     - role: System Administrator
       time: Aug 2012 - Dec 2014
       company: RedHill Education
       details: |
-      - Provided enterprise IT support across RedHill's business units under strict SLA conditions.
-      - Led a team of 2 junior admins supporting ~800 endpoints (Windows, Apple, Linux).
-      - Managed ~50 virtualized servers across AWS, VMware, and Windows Server environments.
-      - Installed and maintained Cisco/HP/Netgear networks, firewalls, and VPN infrastructure.
-      - Oversaw system monitoring, database (PostgreSQL, MS SQL) and web server (Apache) management.
-      - Planned IT consolidation strategies and maintained internal websites and social media platforms.
+        - Provided enterprise IT support across RedHill's business units under strict SLA conditions.
+        - Led a team of two junior admins supporting ~800 Windows, macOS, and Linux endpoints.
+        - Managed ~50 virtualised servers across AWS, VMware, and Windows Server.
+        - Installed and maintained Cisco/HP/Netgear networks, firewalls, and VPNs.
+        - Oversaw monitoring, backups, and PostgreSQL/MSSQL/Apache administration.
+        - Drove IT-consolidation strategy and maintained internal websites/social media.
 
 
     - role: Network Systems Administrator
