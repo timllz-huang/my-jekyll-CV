@@ -58,7 +58,7 @@ experiences:
   title: Experience
   info:
     - role: Head of IT
-      time: Oct 2023 – Present
+      time: Oct 2023 - Present
       company: Banpu Energy Australia
       details: |
         - Deployed automated onboarding/offboarding workflows using Power Automate and SharePoint, reducing process time by 90%.
@@ -72,7 +72,7 @@ experiences:
         - Presented strategy and cyber plans to Executive and Board stakeholders.
 
     - role: IT Operations Manager
-      time: Sep 2022 – Sep 2023
+      time: Sep 2022 - Sep 2023
       company: Anspec
       details: |
         - Aligned IT with ISO 9001 certification standards.
@@ -82,7 +82,7 @@ experiences:
         - Oversaw network/cloud infrastructure upgrades across sites.
 
     - role: IT Infrastructure Manager
-      time: Jan 2018 – Sep 2022
+      time: Jan 2018 - Sep 2022
       company: Ideagen (Complispace)
       details: |
         - Led Aruba SDN deployment, Intune MDM, Proofpoint email security.
@@ -90,7 +90,7 @@ experiences:
         - Delivered cyber awareness training and improved endpoint compliance.
 
     - role: Senior System Network Administrator
-      time: Dec 2014 – Jan 2018
+      time: Dec 2014 - Jan 2018
       company: Complispace (now Ideagen)
       details: |
       - Managed Windows, Linux, and network systems across a multi-site enterprise.
@@ -105,7 +105,7 @@ experiences:
 
 
     - role: System Administrator
-      time: Aug 2012 – Dec 2014
+      time: Aug 2012 - Dec 2014
       company: RedHill Education
       details: |
       - Provided enterprise IT support across RedHill's business units under strict SLA conditions.
@@ -117,7 +117,7 @@ experiences:
 
 
     - role: Network Systems Administrator
-      time: Mar 2009 – Jul 2012
+      time: Mar 2009 - Jul 2012
       company: W.T.A International Trading
       details: |
         - Re-architected mixed Linux/Windows infra; optimised SAN and virtual hosts.
@@ -128,7 +128,7 @@ experiences:
 certifications:
   title: Certifications
   list:
-    - name: AWS Certified Solutions Architect – Associate / SysOps / DevOps
+    - name: AWS Certified Solutions Architect - Associate / SysOps / DevOps
       organization: AWS
 
     - name: Microsoft Certified Solutions Expert (MCSE)
@@ -146,7 +146,7 @@ certifications:
     - name: ITIL Foundation
       organization: Axelos
 
-    - name: In Progress – CISSP, OSCP, AWS SA-Pro
+    - name: In Progress - CISSP, OSCP, AWS SA-Pro
       organization: Various
 
 skills:
