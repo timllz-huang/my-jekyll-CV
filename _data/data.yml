@@ -1,191 +1,292 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
 sidebar:
-  position: right
-  about: true
-  education: true
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
+  # Profile information
   name: Tim Huang
-  tagline: Head of IT / Technology Leader
-  avatar: profile1.png
+  tagline: Head of IT / IT Manager / IT Infrastructure Manager
+  avatar: profile1.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
+  # Sidebar links
   email: timllz83@gmail.com
-  phone: 0422 366 237
-  timezone: Australia/Sydney
+  phone: 042 236 6237
+  timezone: Australia/Sydney # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
+  #website: https://www.linkedin.com/in/runtian-huang-58751455/ # Include the full website URL, including "http://" or "https://".
   linkedin: https://www.linkedin.com/in/runtian-huang-58751455/
+  #xing: alandoe
   github: https://github.com/timllz-huang
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  # bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  # twitter: '@jekyllrb'
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  # mastodon: # Please include your full Mastodon link here.
+  # hackerrank: # Please provide your HackerRank username.
+  # leetcode: # Please provide your LeetCode username.
+  # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
     info:
-      - idiom: English
-        level: Professional
-      - idiom: Chinese
-        level: Native
+    - idiom: Chinese
+      level: Native
+
+    - idiom: English
+      level: Professional
+
 
   interests:
     title: Interests
     info:
-      - item: Spearfishing
-      - item: Swimming
-      - item: Reading
+    - item: Spearfishing
+      link:
+
+
+    - item: Swimming
+      link:
+
+
+    - item: Reading
+      link:
+
 
 career-profile:
   title: Career Profile
   summary: |
-    Strategic and hands-on technology leader with over 15 years of experience driving IT and OT transformation across energy, logistics, and compliance sectors. Proven success delivering secure, cloud-first environments; uplifting cybersecurity maturity across SCADA-integrated infrastructure; and architecting hybrid IT/OT systems. Experienced in multi-vendor governance, Microsoft-based ecosystems (E5/Azure), and leading operational resilience initiatives in critical infrastructure. Passionate about innovation, AI-driven decision support, and enabling digital foundations for Australia's renewable energy future.
+    As Head of IT, I have more than 15+ years of experience in leading and managing 
+    complex IT projects, developing business strategies, and implementing 
+    technology solutions for various industries.
 
   skills:
-    - IT & OT Strategy and Execution
-    - Cybersecurity Leadership (Essential Eight, NIST, SOCI Awareness)
-    - Cloud Architecture & Hybrid Infrastructure (Azure, AWS)
-    - SCADA/OT Integration, Network Segmentation
-    - Vendor and Contract Management
-    - IT Team Development and Leadership
-    - Enterprise Systems: SAP, Energy One, WMS, M365
-    - Automation: PowerShell, Power Automate
-    - Budgeting, Forecasting, and Cost Optimisation
-    - Stakeholder Engagement & Executive Communication
+        Experienced in leading and managing complex IT projects.
+        Skilled in SAP, MSP, WMS, business strategy, budgeting, and infrastructure design.
+        Strong communication, leadership, and team management skills.
+        Familiarity with information security and data protection policies and procedures.
+        Knowledgeable in on-premises to cloud migration strategies and hybrid deployments.
+        Ability to identify, evaluate, and recommend new technologies and solutions.
+        Familiarity with disaster recovery and business continuity plans.
+        Strong project leadership and change management skills.
 
 education:
   title: Education
   info:
-    - degree: Master of ICT Management
-      university: University of South Australia
-      time:
-      details: ""
+  - degree: MSc in Computer Science
+    university: University of London
+    time: 2011 - 2012
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - degree: BSc in Applied Mathematics
+    university: Bristol University
+    time: 2007 - 2011
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
 
 experiences:
-  title: Experience
+  title: Experiences
   info:
-    - role: Head of IT
-      time: Oct 2023 - Present
-      company: Banpu Energy Australia
-      details: |
-        - Deployed automated onboarding/offboarding workflows using Power Automate and SharePoint, reducing process time by 90%.
-        - Achieved 95% of Year 1 transformation goals in IT/OT roadmap.
-        - Led Essential Eight implementation and SOCI readiness across critical infrastructure.
-        - Initiated KnowBe4 cyber training; uplifted security posture org-wide.
-        - Managed Energy One platform and achieved 99.9% uptime for trading ops.
-        - Proposed AI-driven hybrid cloud architecture for real-time asset analytics.
-        - Delivered 30% cost savings on cloud; targeting additional 30% through optimisation.
-        - Led multi-vendor collaboration across IT, OT, SAP, WMS, and cyber platforms.
-        - Presented strategy and cyber plans to Executive and Board stakeholders.
-
-    - role: IT Operations Manager
-      time: Sep 2022 - Sep 2023
-      company: Anspec
-      details: |
-        - Aligned IT with ISO 9001 certification standards.
-        - Uplifted cyber maturity from 0 to 1; deployed email security, EDR, and pen testing.
-        - Led SAP integration and WMS modernisation.
-        - Developed BCP and DRP for business continuity.
-        - Oversaw network/cloud infrastructure upgrades across sites.
-
-    - role: IT Infrastructure Manager
-      time: Jan 2018 - Sep 2022
-      company: Ideagen (Complispace)
-      details: |
-        - Led Aruba SDN deployment, Intune MDM, Proofpoint email security.
-        - Oversaw stakeholder engagement across SaaS operations.
-        - Delivered cyber awareness training and improved endpoint compliance.
-
-    - role: Senior System Network Administrator
-      time: Dec 2014 - Jan 2018
-      company: Complispace (now Ideagen)
-      details: |
-        - Managed Windows, Linux, and network systems across a multi-site enterprise.
-        - Administered AD, Exchange, Office 365, Azure AD, and SCCM.
-        - Installed and configured servers, storage, VPNs, firewalls, and VLANs.
-        - Maintained Apache, MySQL, Bind, and Nagios on Linux systems.
-        - Delivered cloud admin tasks across AWS (EC2, S3, PaaS) and Azure AD.
-        - Configured Layer-3 switches, wireless controllers, and access points.
-        - Completed migration from Exchange 2010 to Office 365.
-        - Planned and deployed site-to-site VPNs and PFsense firewalls for 5 offices.
-        - Led wireless-network rollout for 3 interstate offices.
-
-    - role: System Administrator
-      time: Aug 2012 - Dec 2014
-      company: RedHill Education
-      details: |
-        - Provided enterprise IT support across RedHill's business units under strict SLA conditions.
-        - Led a team of two junior admins supporting ~800 Windows, macOS, and Linux endpoints.
-        - Managed ~50 virtualised servers across AWS, VMware, and Windows Server.
-        - Installed and maintained Cisco/HP/Netgear networks, firewalls, and VPNs.
-        - Oversaw monitoring, backups, and PostgreSQL/MSSQL/Apache administration.
-        - Drove IT-consolidation strategy and maintained internal websites/social media.
-
-
-    - role: Network Systems Administrator
-      time: Mar 2009 - Jul 2012
-      company: W.T.A International Trading
-      details: |
-        - Re-architected mixed Linux/Windows infra; optimised SAN and virtual hosts.
-        - Administered CentOS/Ubuntu systems for auth, file sharing, and services.
-        - Upgraded VPN for distributed teams and enhanced security.
-        - Maintained LAN/WAN, PBX, and VoIP; improved asset tracking.
+  - role: Lead Developer
+    time: 2015 - Present
+    company: Startup Hubs, San Francisco
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+        - Bullet point
+        - Bullet point
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
 
 certifications:
   title: Certifications
   list:
-    - name: AWS Certified Solutions Architect - Associate / SysOps / DevOps
-      organization: AWS
+  - name: CV Builder
+    start: 2020
+    end: 2021
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.google.com
+    credentialname: Google
+    details: |
+      Details about cert. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
 
-    - name: Microsoft Certified Solutions Expert (MCSE)
-      organization: Microsoft
+      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+      fringilla vel. Ut euismod, sem sed vulputate venenatis,
+      justo diam viverra velit, sed rhoncus leo leo eu justo.
+      Suspendisse placerat risus ante, sed porta nisi blandit at.
+  - name: Git learning
+    start: 2019
+    end:
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.github.com
+    credentialname: GitHub
+    details: |
+      Older certification. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
 
-    - name: Cisco Certified Network Professional (CCNP)
-      organization: Cisco
+projects:
+  title: Projects
+  intro: >
+    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+  - title: Velocity
+    link: "#hook"
+    tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-    - name: CompTIA Security+, A+, Linux+
-      organization: CompTIA
+  - title: DevStudio
+    link: "#"
+    tagline: "A responsive website template designed to help web developers/designers market their services."
 
-    - name: Project Management Professional (PMP)
-      organization: PMI
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-    - name: ITIL Foundation
-      organization: Axelos
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-    - name: In Progress - CISSP, OSCP, AWS SA-Pro
-      organization: Various
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+  title: OSS Contributions
+  intro: >
+    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  contributions:
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+  - title: The Art of Computer Programming
+    link: "#"
+    authors: Donald E. Knuth
+    conference: Addison-Wesley, 1968
+
+  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    link: "#"
+    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+  - title: A syntax directed compiler for Algol 60
+    link: "#"
+    authors: Edgar T. Irons
+    conference: "Comm. ACM 4 (1961), 51–55"
+
+recommendations:
+  title: Recommendations
+  list:
+  - person: Yareli Perez
+    email: perezyareli@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      Alan Doe is a super employee!
+  - person: Lara Henderson
+    email: larah@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      I would like to work with Alan Doe again!
+
+      He is a great employee!
 
 skills:
-  title: Skills & Proficiency
+  title: Skills &amp; Proficiency
+
   toolset:
-    - name: Azure, AWS, VMware, Hyper-V, M365 E5
-      level: 95%
-    - name: Cisco, Meraki, Aruba, VLANs, VPNs, SD-WAN
-      level: 90%
-    - name: Intune, Proofpoint, Netskope, Trend Micro, PRTG
-      level: 85%
-    - name: SAP, Energy One, WMS (Dematic), Procore (familiar)
-      level: 85%
-    - name: PowerShell, Power Automate, Azure Data Factory
-      level: 90%
-    - name: Jira, ServiceNow (familiar)
-      level: 80%
+  - name: Python & Django
+    level: 98%
 
-# Commented out until needed
-# projects:
-#   title: Projects
-#   intro: >
-#     Internal transformation or vendor-led projects can be listed here.
-#   assignments: []
+  - name: Javascript & jQuery
+    level: 98%
 
-# oss:
-#   title: OSS Contributions
-#   intro: >
-#     (No open-source projects listed in CV.)
-#   contributions: []
+  - name: Angular
+    level: 98%
 
-# publications:
-#   title: Publications
-#   intro: >
-#     No publications listed.
-#   papers: []
+  - name: HTML5 & CSS
+    level: 95%
 
-# recommendations:
-#   title: Recommendations
-#   list: []
+  - name: Ruby on Rails
+    level: 85%
+
+  - name: Sketch & Photoshop
+    level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
